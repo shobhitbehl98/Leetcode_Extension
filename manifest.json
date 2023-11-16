@@ -1,26 +1,32 @@
 {
-    "name": "Leecode Extension",
-    "description": "LeetCode Extension",
-    "version": "1.0",
-    "manifest_version": 3,
-    "icons": {
-        "16": "images/leetcode16.png",
-        "48": "images/leetcode48.png",
-        "128": "images/leetcode128.png"
-      },
-    "action": {
-        "default_popup": "popup.html"
-      },
-      "background": {
-        "service_worker": "background.js"
-      },
-    "content_scripts": [{
-        "matches": [ "https://leetcode.com/*"],
-        "js": ["content-script.js"]
-    }],
-    "permissions": [
-        "https://leetcode.com/*",
-        "tabs",
-        "storage"
-    ]
+  "name": "Leecode Extension",
+  "description": "LeetCode Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/leetcode16.png",
+    "48": "images/leetcode48.png",
+    "128": "images/leetcode128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "https://leetcode.com/*",
+    "tabs",
+    "storage"
+  ]
 }
