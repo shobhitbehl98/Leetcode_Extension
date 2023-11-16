@@ -13,7 +13,7 @@ chrome.storage.sync.get(['popupData'], function (result) {
 
 function handleMutations(mutations) {
     mutations.forEach((mutation) => {
-        mutation?.previousSibling?.classList.forEach((x) => {
+        mutation?.previousSibling?.classList?.forEach((x) => {
             if (x.startsWith('text-difficulty')) {
                 removeDifficulty(flag,x);
             }

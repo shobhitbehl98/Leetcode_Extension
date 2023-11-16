@@ -12,7 +12,7 @@ body{
 }
 .action{
     display: flex;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .switch{
     margin-left: 1rem;
@@ -20,4 +20,14 @@ body{
 .h{
     font-weight: 600;
     text-decoration: underline;
+    margin-bottom:1rem;
+}
+#button{
+    padding:0.2rem;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
 }

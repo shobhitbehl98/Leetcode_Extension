@@ -27,6 +27,7 @@
   "permissions": [
     "https://leetcode.com/*",
     "tabs",
-    "storage"
+    "storage",
+    "activeTab"
   ]
 }
