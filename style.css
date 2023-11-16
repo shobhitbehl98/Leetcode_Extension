@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 8.2rem;
+}
+body{
+    font-family: Arial;
+    width: fit-content;
+    padding: 0.8rem;
+    margin: 0;
+    
+}
+.action{
+    display: flex;
+    margin-top: 1rem;
+}
+.switch{
+    margin-left: 1rem;
+}
+.h{
+    font-weight: 600;
+    text-decoration: underline;
+}
